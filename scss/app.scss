@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 
 // Or selectively include components
 // @import
@@ -38,3 +39,63 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+body {
+  color: #616161;
+  background-color: #007FF7;
+}
+
+#grad {
+  background: -webkit-linear-gradient(left top, white , blue, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, blue, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, blue, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white , blue, white); /* Standard syntax */
+}
+
+.fonts {
+  color: #050505;
+  font-style: italic;
+}
+
+.fonts:hover {
+  color: #050505;
+}
+
+#header {
+  margin-bottom: 25px;
+}
+
+#nav {
+  background-color: #252525;
+}
+
+#navbar:hover {
+  color: #007FF7;
+}
+
+#img {
+  height: 100%;
+}
+
+
+#button {
+  margin-top: 15px;
+  background-color: #252525;
+  color: white;
+}
+
+#button:hover {
+  background-color: white;
+  color: #007FF7;
+}
+
+.th-item {
+  height: 10em;
+  width: 100%;
+  overflow: hidden;
+  background-position: center;
+}
+
+.h1 {
+  font-size: 20px;
+}

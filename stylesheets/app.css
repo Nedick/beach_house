@@ -9117,3 +9117,8 @@ body {
 .h1 {
   font-size: 20px;
 }
+
+/* line 103, ../scss/app.scss */
+body > div:first-child {
+  display: none;
+}

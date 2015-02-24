@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Фотогалерея</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <style>
+      @media screen and (max-width: 700px;) {
+          #gallery li {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+          }
+      }
+    </style>
     <script src="vendor/js/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -20,7 +29,7 @@
 
         <section class="top-bar-section">
           <ul class="right">
-            <li><a href="/">Начало</a></li>
+            <li><a href="/">Начало</a></li> 
             <li><a href="/accommodation.html">Жилье</a></li>
             <li><a href="/gallery.html">Фотогалерея</a></li>
             <li><a href="/contacts.html">Контакты</a></li>
@@ -31,9 +40,9 @@
     </header>
     
     <div class="container-fluid">
-    <section class="text-center" name="beachandcity">
+    <section class="text-center" name="beachAndCity">
       <h2 class="fonts">Пляж Созополя и фотографии города</h2>
-      <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2 clearing-thumbs" data-clearing>
+      <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-1 clearing-thumbs" data-clearing id="gallery">
         <li><a class="th th-item" href="BeachAndCity/3.jpg"><img src="BeachAndCity/3.jpg"></a></li>
         <li><a class="th th-item" href="BeachAndCity/4.jpg"><img src="BeachAndCity/4.jpg"></a></li>
         <li><a class="th th-item" href="BeachAndCity/5.jpg"><img src="BeachAndCity/5.jpg"></a></li>
@@ -54,9 +63,9 @@
       </ul>
     </section>
 
-    <section class="container text-center" name="house">
+    <section class="text-center" name="house">
       <h2 class="fonts">Общие фото дома Ирины Милевой</h2>
-      <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2 clearing-thumbs" data-clearing>
+      <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-1 clearing-thumbs" data-clearing id="gallery">
         <li><a class="th th-item" href="House/4.jpg"><img src="House/4.jpg"></a></li>
         <li><a class="th th-item" href="House/5.jpg"><img src="House/5.jpg"></a></li>
         <li><a class="th th-item" href="House/6.jpg"><img src="House/6.jpg"></a></li>
@@ -64,13 +73,6 @@
         <li><a class="th th-item" href="House/8.jpg"><img src="House/8.jpg"></a></li>
         <li><a class="th th-item" href="House/9.jpg"><img src="House/9.jpg"></a></li>
         <li><a class="th th-item" href="House/10.jpg"><img src="House/10.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
-        <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
         <li><a class="th th-item" href="House/11.jpg"><img src="House/11.jpg"></a></li>
       </ul>
     </section>

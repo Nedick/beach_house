@@ -103,3 +103,14 @@ body {
 body > div:first-child {
   display: none;
 }
+
+#gmap_canvas {
+  overflow:hidden;
+  height:300px;
+  width:400px;
+  border: 1px solid black;
+}
+
+#gallery {
+  margin: auto;
+}

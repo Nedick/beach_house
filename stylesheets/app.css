@@ -9122,3 +9122,16 @@ body {
 body > div:first-child {
   display: none;
 }
+
+/* line 107, ../scss/app.scss */
+#gmap_canvas {
+  overflow: hidden;
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+/* line 114, ../scss/app.scss */
+#gallery {
+  margin: auto;
+}
